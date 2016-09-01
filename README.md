@@ -35,12 +35,16 @@
 * 3.1415
 
 ## What would you have to do to add a new field, for example one called name, to a circle object?
+* To add a new field to a circle object, 
 
 ## Write the header for a method named send that has one parameter of type String, and does not return a value.
+* public void send(String message);
 
 ## Write the header for a method named average that has two parameters, both of type int, and returns an int value.
+* public average(int variable1, int variable2){
 
 ## Look at the book you are reading right now. Is it an object or a class? If it is a class, name some objects. If it is an object, name its class. 
 * The book I am currently reading is an object that is a member of the Book class.
 
 ## Can an object have several different classes? Discuss.
+* 
