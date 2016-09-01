@@ -40,6 +40,7 @@
 
 ## Write the header for a method named average that has two parameters, both of type int, and returns an int value.
 
-## Look at the book you are reading right now. Is it an object or a class? If it is a class, name some objects. If it is an object, name its class. The book I am currently reading is an object that is a member of the Book class.
+## Look at the book you are reading right now. Is it an object or a class? If it is a class, name some objects. If it is an object, name its class. 
+* The book I am currently reading is an object that is a member of the Book class.
 
 ## Can an object have several different classes? Discuss.
