@@ -26,13 +26,13 @@
 
 ## What are the types of the following values?
 
-* 0
+* 0: Int
 * "hello": String
-* 101
-* -1
+* 101: Int
+* -1: Int
 * true: boolean
-* "33"
-* 3.1415
+* "33": String
+* 3.1415: Float
 
 ## What would you have to do to add a new field, for example one called name, to a circle object?
 * To add a new field to a circle object, 
