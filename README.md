@@ -1,17 +1,17 @@
 # Lab 02 -- Chapter 01
 
 ## Define the following terms:
-* object,
-* class,
-* instance,
-* method,
-* signature,
-* parameter,
-* type,
-* state,
-* source code,
-* return value,
-* compiler
+* object, the parts that define the model a program builds- an instance of class
+* class, a set of data fields used to create objects
+* instance, roughly synonymous with object; used to reference objects as instances of a particular class
+* method, any operation used to manipulate and communicate with objects
+* signature, the name of a method and the paramater types found in the method's header
+* parameter, additional values used to further define how a method communicates with or manipulates an object
+* type, a type is used to specify what values a paramater is allowed to take/accept (examples include int, boolean, and double, alongside several other types)
+* state, - the state of an object consists of all its values defining it
+* source code, the text/code used to define the fields (structure) and methods (behavior) of each class
+* return value, a result value returned from a method; return values are used to get information on objects via methods
+* compiler- a program that translates a source code written in a particular programming language into a machine language that can be understood and used by a computer
 
 ## In Chapter 1 we have mentioned the data types int and String. Java has more predefined data types. Find out what they are and what they are used for. To do this, you can check Appendix B, or look it up in another Java book or in an online Java language manual. One such manual is at [http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html](http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 * byte- an 8-bit signed two's complement integer data type which has a value that can range from -128 to 127; it is frequently used in arrays to save data
