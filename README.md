@@ -14,15 +14,15 @@
 * compiler
 
 ## In Chapter 1 we have mentioned the data types int and String. Java has more predefined data types. Find out what they are and what they are used for. To do this, you can check Appendix B, or look it up in another Java book or in an online Java language manual. One such manual is at [http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html](http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
-* int
-* String
-* byte
-* short
-* long
-* float
-* double
+* byte- an 8-bit signed two's complement integer data type which has a value that can range from -128 to 127; it is frequently used in arrays to save data
+* short- a 16-bit signed two's complement integer data type which has a value that can range from -32,768 to 32,767; like bytes, they are often used to save data in arrays while saving memory
+* int- a 32-bit signed two's complement integer data type which has a value that can range from -2^31 to (2^31)-1. It is often used to store data used in arithmetic operation involving integers.
+* long- a 64-bit signed two's complement integer data type which has a value that can range from -2^63 and 2^63-1. Longs are frequently used to substitute for ints when values larger than ints can store are needed
+* float- a single precision 32-bit IEEE 754 floating point used to store decimal numbers; it stores less decimal places than a double, but takes up less memory, so it is often used to save decimal numbers as data in arrays
+* double- a signle precision 64-bit IEEE 754 floating point used to store decimal numbers; it can store more decimal places than a float.
 * boolean- a data type with only two values, true and false, which is typically used as a flag to track true/false conditions
 * char- a data type that stores the value of a single character, which ranges from '\u0000' to '\uffff'
+* String- a data type whose value consists of a series of characters (example: "a string of data")
 
 ## What are the types of the following values?
 
