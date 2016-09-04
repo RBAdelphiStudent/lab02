@@ -48,4 +48,4 @@
 * The book I am currently reading is an object that is a member of the Book class.
 
 ## Can an object have several different classes? Discuss.
-*  An object
+*  In Java, an object can have multiple classes if the class of an object falls within a certain superclass. Otherwise, though a Java object can only be considered one class. It cannot be considered a member of different classes unless one is a subclass of the other. An object can call on and interact with multiple classes, but it is only considered one class.
