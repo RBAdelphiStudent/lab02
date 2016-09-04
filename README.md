@@ -35,7 +35,8 @@
 * 3.1415: Float
 
 ## What would you have to do to add a new field, for example one called name, to a circle object?
-* To add a new field to a circle object, 
+* To add a new field (name) to a circle object, I would add this code under the header for the circle class. I could later define this field for specific instances of an object.
+* String name;
 
 ## Write the header for a method named send that has one parameter of type String, and does not return a value.
 * public void send(String message);
