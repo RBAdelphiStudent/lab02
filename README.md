@@ -47,4 +47,4 @@
 * The book I am currently reading is an object that is a member of the Book class.
 
 ## Can an object have several different classes? Discuss.
-* 
+*  An object
