@@ -1,17 +1,20 @@
 # Lab 02 -- Chapter 01
 
 ## Define the following terms:
-* object, the parts that define the model a program builds- an instance of class
-* class, a set of data fields used to create objects
-* instance, roughly synonymous with object; used to reference objects as instances of a particular class
-* method, any operation used to manipulate and communicate with objects
-* signature, the name of a method and the paramater types found in the method's header
-* parameter, additional values used to further define how a method communicates with or manipulates an object
-* type, a type is used to specify what values a paramater is allowed to take/accept (examples include int, boolean, and double, alongside several other types)
-* state, - the state of an object consists of all its values defining it
-* source code, the text/code used to define the fields (structure) and methods (behavior) of each class
-* return value, a result value returned from a method; return values are used to get information on objects via methods
-* compiler- a program that translates a source code written in a particular programming language into a machine language that can be understood and used by a computer
+* object, State or behavior (instance) of a class.
+* class, blueprint (code) that defines how to create an object.
+* instance, Specific realization of any object.
+* method, A collection of statements, in a class, used to manipulate (mutators) or access (accessors) information from an object of that class (behaves like a function in mathematics)
+* signature (or header), the name of a method and the parameter types found in the method's header. I.e. the following signature changes the size of the instance `box` of class `Box` and does not give an output.
+```
+void changeSize(Box box)
+```
+* parameter, an input of the method. I.e. `box` is the parameter in the example above
+* type, a type is used to specify what values a parameter or variable is allowed to take/accept (examples include int, boolean, and double, alongside several other types). I.e. it defines what values a parameter or variable is allowed to be.
+* state, - the state of an object consists of all its values defining it; a set of values describing an object
+* source code, the collection of commands compiled into an executable program and used to define the fields (structure) and methods (behavior) of each class
+* return value, a result value returned from an accessor method; return values are used to get information on objects via methods- output of a method
+* compiler- a program that translates a source code written in a particular programming language into a machine language that can be understood and used by a computer (forces computer to read instructions in code)
 
 ## In Chapter 1 we have mentioned the data types int and String. Java has more predefined data types. Find out what they are and what they are used for. To do this, you can check Appendix B, or look it up in another Java book or in an online Java language manual. One such manual is at [http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html](http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 * byte- an 8-bit signed two's complement integer data type which has a value that can range from -128 to 127; it is frequently used in arrays to save data
@@ -44,7 +47,7 @@
 ## Write the header for a method named average that has two parameters, both of type int, and returns an int value.
 * public average(int variable1, int variable2){
 
-## Look at the book you are reading right now. Is it an object or a class? If it is a class, name some objects. If it is an object, name its class. 
+## Look at the book you are reading right now. Is it an object or a class? If it is a class, name some objects. If it is an object, name its class.
 * The book I am currently reading is an object that is a member of the Book class.
 
 ## Can an object have several different classes? Discuss.
