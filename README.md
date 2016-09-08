@@ -29,26 +29,32 @@ void changeSize(Box box)
 
 ## What are the types of the following values?
 
-* 0: Int
+* 0: byte, short, int, long, double, float
 * "hello": String
-* 101: Int
-* -1: Int
+* 101: byte, short, int, long, double, float
+* -1: byte, short, int, long, double, float
 * true: boolean
 * "33": String
-* 3.1415: Float
+* 3.1415: float, double
 
 ## What would you have to do to add a new field, for example one called name, to a circle object?
 * To add a new field (name) to a circle object, I would add this code under the header for the circle class. I could later define this field for specific instances of an object.
-* String name;
+```
+private String name;
+```
 
 ## Write the header for a method named send that has one parameter of type String, and does not return a value.
-* public void send(String message);
+```
+public void send(String message);
+```
 
 ## Write the header for a method named average that has two parameters, both of type int, and returns an int value.
-* public average(int variable1, int variable2){
+```
+public int average(int variable1, int variable2){
+```
 
 ## Look at the book you are reading right now. Is it an object or a class? If it is a class, name some objects. If it is an object, name its class.
-* The book I am currently reading is an object that is a member of the Book class.
+* The book I am currently reading is an object that is a member of the class `Books`.
 
 ## Can an object have several different classes? Discuss.
 *  In Java, an object can have multiple classes if the class of an object falls within a certain superclass. Otherwise, though a Java object can only be considered one class. It cannot be considered a member of different classes unless one is a subclass of the other. An object can call on and interact with multiple classes, but it is only considered one class.
